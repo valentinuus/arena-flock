@@ -31,7 +31,6 @@ testWebP(function (support) {
 //==================ibg=================
 
 
-
 //==================toggleClass('active'),toggleClass('lock')=================
 // ==========добавление классов для правильной работы бургера=================
 // $(document).ready(function () {
@@ -41,7 +40,6 @@ testWebP(function (support) {
 // 	});
 // });
 //==================toggleClass('active'),toggleClass('lock')=================
-
 
 
 const isMobile = {
@@ -85,7 +83,6 @@ if (isMobile.any()) {
 }
 
 
-
 // Меню бургер
 const iconMenu = document.querySelector('.menu__icon');
 const menuBody = document.querySelector('.menu__body');
@@ -96,7 +93,7 @@ if (iconMenu) {
 		menuBody.classList.toggle('_active');
 	});
 }
-
+// Меню бургер
 
 
 // Прокрутка при клике
