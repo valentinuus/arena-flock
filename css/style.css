@@ -1521,10 +1521,15 @@ body._touch .menu__list > li._active .menu__arrow {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
+    padding: 20px 0;
   }
 
   .slider-desr__content::after {
     display: none;
+  }
+
+  .slider-desr__title {
+    margin: 0px;
   }
 
   .slider-desr__about {
