@@ -1604,8 +1604,8 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 
 @media (max-width: 480px) {
-  .header__phone {
-    display: none;
+  .header__phone-link {
+    font-size: 18px;
   }
 
   .intro__wrap {
